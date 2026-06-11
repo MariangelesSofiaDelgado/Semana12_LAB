@@ -10,9 +10,9 @@ interface Props {
 function TarjetaCurso({ curso }: Props) {
   // Colores según el nivel del curso
   const colorNivel = {
-    'Básico':      'success',
-    'Intermedio':  'warning',
-    'Avanzado':    'danger'
+    'Básico': 'success',
+    'Intermedio': 'warning',
+    'Avanzado': 'danger'
   }[curso.nivel]
 
   return (
